@@ -130,4 +130,16 @@ Get /api/posts/count
 }
 
 ```
+## Rest API란? 
+REST 아키텍처 스타일을 따르는 API를 의미합니다.
+REST는 URI 정보의 자원을 표현해야 하고, 자원에 대한 행위는 HTTP method로 표현합니다.  각 요청은 어떤 자원에 대해 어떤 동작을 수행하는지 URI와 HTTP Method만으로도 의미를 추론할 수 있습니다.
 
+## HTTP 통신 과정 설명
+1. 클라이언트가 URL 호출
+2. HTTP Method(GET)
+3. Request Parameter 전달
+4. Controller에서 요청 수신
+5. Service 로직 실행
+6. DB 조회
+7. Response 생성
+8. Json 응답 반환
